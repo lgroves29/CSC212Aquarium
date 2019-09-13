@@ -19,7 +19,7 @@ public class Fish {
 		
 		public void draw(Graphics2D window); {
 			DrawFish.facingRight(window, this.color, this.x, this.y);
-			DrawFish.facingLeft(window, this.color, this.x, fish1.y);
+			DrawFish.facingLeft(window, this.color, this.x, this.y);
 			DrawFish.smallFacingLeft(window, this.color, this.x, this.y);
 			DrawFish.smallFacingRight(window, this.color, this.x, this.y);
 			this.swim();
